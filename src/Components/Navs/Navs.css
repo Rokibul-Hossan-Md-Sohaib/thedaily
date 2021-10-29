@@ -1,0 +1,50 @@
+.bar{
+    background-color: RGB(88, 88, 88);
+}
+.topbar{
+    height: 30px;
+    background-color: black;
+}
+.topbar-ul{
+    margin-right: auto;
+  
+   }
+.topbar-ul li{
+ margin-right: 20px;
+    text-decoration: none;
+}
+.topbar-ul li a{
+ 
+       text-decoration: none;
+   }
+.logo{
+    height: 55px;
+    width: 80px;
+}
+
+.properties{
+   color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
+#home:hover{
+    color: blue;
+}
+#basic-nav-dropdown{
+    color: white;
+    
+   
+}
+#basic-nav-dropdown>li{
+   background-color:  blue;
+   font-weight: 500;
+}
+
+#basic-nav-dropdown:hover{
+  color: blue;
+    
+   
+}
+NavDropdown.item{
+color: blue;
+}

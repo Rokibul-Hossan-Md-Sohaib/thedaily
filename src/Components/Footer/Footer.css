@@ -1,0 +1,30 @@
+
+
+.footer{
+    text-align: center;
+    height: 300px;
+    padding: 3px;
+    background-color:rgba(0, 0, 0, 0.863);
+    color: white;
+ 
+}
+.footer hr{
+    margin-top: 80px;
+}
+.upper {
+   margin-top: 30px;
+}
+.footer img{
+    height: 80px;
+    width: 160px;
+}
+.img{
+    margin-right: auto;
+}
+.about{
+    margin-left: 250px;
+}
+.icons{
+    margin-left: auto;
+    color: blue;
+}

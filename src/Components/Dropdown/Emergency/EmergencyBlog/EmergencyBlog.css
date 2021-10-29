@@ -1,0 +1,53 @@
+.image{
+    height: 400px;
+    margin-top:160px ;
+    animation: moveInRight 2s ease-out;
+}
+.maintext{
+
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+
+  margin-top: 160px;
+  animation: moveInLeft 2s ease-out;
+}
+
+@keyframes moveInLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    80% {
+        transform: translateX(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    80% {
+        transform: translateX(-10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
+
+@keyframes moveInBottom {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}

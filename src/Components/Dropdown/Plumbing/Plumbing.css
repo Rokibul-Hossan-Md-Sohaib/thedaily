@@ -1,0 +1,29 @@
+.plumbing{
+    background-image: url(../../../image/image39.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 420px;
+    background-position: center center;
+   
+  
+}
+
+.plumb{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    color: white;
+    text-transform: uppercase;
+ 
+}
+.plumbing::before{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #3D4458;
+    opacity: .4;
+    top: 0;
+}

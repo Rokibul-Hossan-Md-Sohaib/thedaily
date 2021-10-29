@@ -1,0 +1,29 @@
+.emergency{
+    background-image: url(../../../image/image38.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    height: 420px;
+    background-position: center center;
+   
+  
+}
+
+.emer{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: 10%;
+    color: white;
+    text-transform: uppercase;
+ 
+}
+.emergency::before{
+    content: "";
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #3D4458;
+    opacity: .4;
+    top: 0;
+}
